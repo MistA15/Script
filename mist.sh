@@ -20,7 +20,7 @@ repo init -u https://github.com/Project-Mist-OS/manifest -b 15 --git-lfs
 # rm -rf frameworks/native
 
 # cloning device tree
-git clone https://github.com/MistA15/device_xiaomi_mojito.git --depth 1 -b 15 device/xiaomi/mojito
+git clone https://github.com/MistA15/device_xiaomi_mojito.git --depth 1 -b mojito-universe device/xiaomi/mojito
 git clone https://github.com/MistA15/android_device_xiaomi_sm6150-common.git --depth 1 -b 15 device/xiaomi/sm6150-common
 
 # cloning kernel tree
